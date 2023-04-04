@@ -1,0 +1,10 @@
+Bundle-Name: sample-service-api
+Bundle-SymbolicName: com.liferay.sample.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.sample.service.exception,\
+	com.liferay.sample.service.model,\
+	com.liferay.sample.service.service,\
+	com.liferay.sample.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../sample-service-service/service.xml

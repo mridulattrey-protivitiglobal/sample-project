@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.sample.service.model.SampleData">
+		<field name="uuid" type="String" />
+		<field name="sampleDataId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="mobileNumber" type="String" />
+		<field name="email" type="String" />
+		<field name="product" type="String" />
+		<field name="expiryDate" type="Date" />
+		<field name="hobbies" type="String" />
+		<field name="consent" type="String" />
+	</model>
+</model-hints>
